@@ -19,13 +19,23 @@ core skills:
 
 ## Your Task
 
-Once you're confident you can complete the task take a screen recording of youself doing it and talking us through it. (We're NOT assessing your video production/editing skills!)
-
-For bonus points first ssh to a remote machine to run the jupyter notebook.
-
   1. Clone this repo
   2. Create a python virtual environment and install the dependancies in `requirements-cpu.txt`
-  3. Run the Jupyer [pytorch_mnist notebook](notebooks/pytorch_mnist.ipynb) in your virtual environment. *If running on a remote machine [here](https://benjlindsay.com/posts/running-jupyter-lab-remotely) is a hint*
+  3. Run the Jupyer [pytorch_mnist notebook](notebooks/pytorch_mnist.ipynb) in your virtual environment.
   4. Identify/Fix the issues (one or more cells will fail, you'll need to fix them)
   5. Create a Pull Request with your fix
     - Use the command `nbstripout notebooks/pytorch_mnist.ipynb` before adding the fixed notebook to your commit. This will clear the output cells so only the code and text cells remain.
+
+Once you're confident you can complete the task take a screen recording of 
+youself doing it and talking us through it.
+
+### What We're Assessing
+
+  - Your confidence using common tools Git, Python, virtual envs
+  - Your ability to communicate what you're thinking when working through 
+  problem. This will require you to explain what you're doing during the 
+  screen recording. **Videos with no explanations will be an automatic 'No'**
+
+We will **NOT** be assessing your video production/editing skills! Provided we 
+can see what you're doing and hear your explanations that's great.
+
