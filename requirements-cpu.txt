@@ -3,4 +3,3 @@ torchvision
 -f https://download.pytorch.org/whl/cpu
 jupyterlab
 nbstripout
-pandas
