@@ -29,7 +29,7 @@ Train and evaluate a shape classification model written in Pytorch.
   library or roll your own model, it's up to you.*
   5. Push your code
   6. Create a Pull Request containing your solution
-  7. Create a video explaining your solution and link it in your PR
+  7. Create a video explaining your solution and email it to your Silverpond contact
 
 ### What We're Assessing
 
