@@ -1,3 +1,9 @@
 data/*
 *.ipynb_checkpoints/
+datasets/*
+venv/*
+.venv/*
+.virtual_documents
+__pycache__/*
+*.pyc
 
