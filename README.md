@@ -24,12 +24,12 @@ Train and evaluate a shape classification model written in Pytorch.
   1. Fork and clone this repo
   2. Create a python virtual environment and install the dependancies in `requirements-cpu.txt`
   3. Run `python generate_classification_dataset.py`
-  4. Open the [notebook](notebooks/shape_classifier.ipynb). Train and evaluates 
-  a shape classification model given the generated dataset. *You can use a 
-  library or roll your own model, it's up to you.*
+  4. Open the [notebook](notebooks/shape_classifier.ipynb) Fix the bugs and run the training.
+  5. Fill in the `test` and `show_prediction` functions
   5. Push your code
-  6. Create a Pull Request containing your solution
-  7. Create a video explaining your solution and email it to your Silverpond contact
+  6. Create a Pull Request for your solution
+  7. Create a video explaining your solution 
+  8. Email your Silverpond contact with a link to the PR and the video
 
 ### What We're Assessing
 
