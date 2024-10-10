@@ -19,15 +19,17 @@ core skills:
 
 ## Your Task
 
-  1. Clone this repo
-  2. Create a python virtual environment and install the dependancies in `requirements-cpu.txt`
-  3. Run the Jupyer [pytorch_mnist notebook](notebooks/pytorch_mnist.ipynb) in your virtual environment.
-  4. Identify/Fix the issues (one or more cells will fail, you'll need to fix them)
-  5. Create a Pull Request with your fix
-    - Use the command `nbstripout notebooks/pytorch_mnist.ipynb` before adding the fixed notebook to your commit. This will clear the output cells so only the code and text cells remain.
+Train and evaluate a shape classification model written in Pytorch.
 
-Once you're confident you can complete the task take a screen recording of 
-youself doing it and talking us through it.
+  1. Fork and clone this repo
+  2. Create a python virtual environment and install the dependancies in `requirements-cpu.txt`
+  3. Run `python generate_classification_dataset.py`
+  4. Open the [notebook](notebooks/shape_classifier.ipynb) Fix the bugs and run the training.
+  5. Fill in the `test` and `show_prediction` functions
+  5. Push your code
+  6. Create a Pull Request for your solution
+  7. Create a video explaining your solution 
+  8. Email your Silverpond contact with a link to the PR and the video
 
 ### What We're Assessing
 
@@ -36,6 +38,12 @@ youself doing it and talking us through it.
   problem. This will require you to explain what you're doing during the 
   screen recording. **Videos with no explanations will be an automatic 'No'**
 
-We will **NOT** be assessing your video production/editing skills! Provided we 
-can see what you're doing and hear your explanations that's great.
+
+### What We're NOT Assessing
+
+  - Your video production/editing skills! Provided we can see what you're doing 
+  and hear your explanations that's great.
+  - The overally performance of your solution. We're aware that training models can take time (especially 
+  on a cpu). So we're not looking for a perfect model, just something demonstrating that
+  the loss is going down and the output is better than random.
 
