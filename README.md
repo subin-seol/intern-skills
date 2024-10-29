@@ -21,23 +21,25 @@ core skills:
 
 Train and evaluate a shape classification model written in Pytorch.
 
-  1. Fork and clone this repo
-  2. Create a python virtual environment and install the dependancies in `requirements-cpu.txt`
-  3. Run `python generate_classification_dataset.py`
-  4. Open the [notebook](notebooks/shape_classifier.ipynb) Fix the bugs and run the training.
-  5. Fill in the `test` and `show_prediction` functions
-  5. Push your code
-  6. Create a Pull Request for your solution
-  7. Create a video explaining your solution 
-  8. Email your Silverpond contact with a link to the PR and the video
+   1. Fork and clone this repo
+   2. Create a python virtual environment and install the dependancies in `requirements-cpu.txt`
+   3. Run `python generate_classification_dataset.py`
+   4. Open the [notebook](notebooks/shape_classifier.ipynb) Fix the bugs and run the training.
+   5. Fill in the `test` and `show_prediction` functions
+   6. run `nbstripout notebooks/shape_classifier.ipynb` to clean up you'r notebook's outputs before committing 
+   7. Push your code
+   8. Create a Pull Request for your solution
+   9. Create a video explaining your solution 
+  10. Email your Silverpond contact with a link to the PR and the video
 
-### What We're Assessing
+### What We're Assessing (What you should show in your video submission)
 
+  - The way you approach and solve the problem. For example, sketching out the 
+  problem, perusing StackOverflow or related API documentation etc. 
   - Your confidence using common tools Git, Python, virtual envs
   - Your ability to communicate what you're thinking when working through 
   problem. This will require you to explain what you're doing during the 
-  screen recording. **Videos with no explanations will be an automatic 'No'**
-
+  screen recording. **Videos with no explanations will be an automaticp 'No'**
 
 ### What We're NOT Assessing
 
@@ -46,4 +48,15 @@ Train and evaluate a shape classification model written in Pytorch.
   - The overally performance of your solution. We're aware that training models can take time (especially 
   on a cpu). So we're not looking for a perfect model, just something demonstrating that
   the loss is going down and the output is better than random.
+
+### Warnings regarding ChatGPT and other LLMs
+
+This task should not simply be asking ChatGPT how to solve the problem, then 
+copy-pasting the solution. ChatGPT is a useful tool but it is not in the spirit 
+of the task. If you don’t show in your video a thorough explanation of how and 
+why you made various decisions then we will have no choice but to assume you’ve 
+just re-typed the ChatGPT response, which is a waste of time for both you and 
+for us. 
+
+
 
